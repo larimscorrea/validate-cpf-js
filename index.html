@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./reset.css" />
-    <title>Document</title>
+    <title>Javascript Gama Academy</title>
 </head>
 
 <body>
@@ -26,25 +25,26 @@
                 <div class="text text-box">
                     <div class="cpf-box">
                         <div class="cpf">CPF</div>
-                        <input type="text" placeholder="Digite o cpf para validação" id="cpf-write" onclick="validatesCPF()" />
+                        <input type="text" placeholder="Digite o cpf para validação" id="cpf-wrote"
+                            onclick="validatesCPF()" />
                     </div>
                     <span class="span">Digite somente números</span>
                 </div>
             </div>
         </form>
 
-        <div class="page-header">
-        <div id="sucess" style="display: none;" class="alert alert-sucess" role="alert">
-            <strong>Oba!</strong> Seu CPF é válido.
-        </div>
-        <div id="error" style="display: none;" class="alert alert-danger" role="alert">
-            <strong>Ops!</strong> Seu CPF não é válido.
-        </div>
+        <div class="container page-header">
+            <div id="sucess" style="display: none;" class="alert alert-sucess" role="alert">
+                <strong>Oba!</strong> Seu CPF é válido.
+            </div>
+            <div id="error" style="display: none;" class="alert alert-danger" role="alert">
+                <strong>Ops!</strong> Seu CPF não é válido.
+            </div>
         </div>
 
         <button type="button" class="button text" onclick="validation()">Validar!</button>
     </div>
-    <script src="./secondary file.js"></script>
+    <script src="./tercery-file.js"></script>
 </body>
 
 </html>
